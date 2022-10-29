@@ -1,0 +1,12 @@
+.projects {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects img {
+  width: 320px;
+  height: 200px;
+}

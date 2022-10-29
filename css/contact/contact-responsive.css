@@ -1,0 +1,143 @@
+/* TABLET */
+@media (min-width: 710px) and (max-width: 960px) {
+  .contact {
+    grid-template-areas:
+      "title title title"
+      "contatos . links"
+      "social social social";
+    grid-template-rows: auto 1fr 1fr;
+    align-items: unset;
+  }
+
+  .contact .section__title {
+    grid-area: title;
+    font-size: 8.75rem;
+  }
+
+  .contact-container {
+    grid-area: contatos;
+    display: flex;
+    align-self: center;
+    margin-left: 32px;
+  }
+
+  .links-container {
+    grid-area: links;
+    display: flex;
+    align-self: center;
+    margin-right: 32px;
+  }
+
+  .social-container {
+    grid-area: social;
+    display: flex;
+    justify-self: center;
+  }
+
+  .social i {
+    font-size: 36px;
+  }
+}
+
+/* MOBILE */
+@media (min-width: 470px) and (max-width: 710px) {
+  .contact {
+    grid-template-areas:
+      "title"
+      "contatos"
+      "social"
+      "links";
+    height: fit-content;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .contact .section__title {
+    grid-area: title;
+    font-size: 6.75rem;
+  }
+
+  .contact-container {
+    grid-area: contatos;
+    display: flex;
+    justify-self: center;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+
+  .contact-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-container {
+    grid-area: social;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .links-container {
+    grid-area: links;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 72px;
+  }
+
+  .social i {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 470px) {
+  .contact {
+    grid-template-areas:
+      "title"
+      "contatos"
+      "social"
+      "links";
+    height: fit-content;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .contact .section__title {
+    grid-area: title;
+    font-size: 3.75rem;
+  }
+
+  .contact-container {
+    grid-area: contatos;
+    display: flex;
+    justify-self: center;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+
+  .contact-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-container {
+    grid-area: social;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .links-container {
+    grid-area: links;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 72px;
+  }
+
+  .social i {
+    font-size: 36px;
+  }
+}

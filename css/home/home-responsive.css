@@ -1,0 +1,45 @@
+/* TABLET */
+@media (min-width: 710px) and (max-width: 960px) {
+  .profile {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "content";
+    grid-template-rows: auto auto;
+    max-width: 570px;
+  }
+
+  .profile__foto {
+    grid-area: image;
+    justify-self: center;
+  }
+
+  .profile div {
+    display: grid;
+    gap: 12px;
+    text-align: center;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 710px) {
+  .profile {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "content";
+    grid-template-rows: auto auto;
+    max-width: 570px;
+  }
+
+  .profile__foto {
+    grid-area: image;
+    justify-self: center;
+  }
+
+  .profile div {
+    display: grid;
+    gap: 12px;
+    text-align: center;
+  }
+}

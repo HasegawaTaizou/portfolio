@@ -1,0 +1,98 @@
+@media (max-width: 1140px) {
+  .about-me .section__title {
+    font-size: 7.75rem;
+  }
+}
+
+/* TABLET */
+@media (min-width: 710px) and (max-width: 960px) {
+  .about-me {
+    grid-template-areas:
+      "title"
+      "description"
+      "skills";
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr 1fr;
+    padding-left: 48px;
+    gap: 0px;
+  }
+
+  .about-me .section__title {
+    font-size: 7.75rem;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .skills__icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap: 32px;
+  }
+}
+
+/* MOBILE */
+@media (min-width: 400px) and (max-width: 710px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .about-me .section__title {
+    font-size: 6.75rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    margin-left: 32px;
+  }
+
+  .skills__title {
+    text-align: center;
+  }
+
+  .skills__icons {
+    display: grid;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .about-me .section__title {
+    font-size: 3.75rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    margin-left: 32px;
+  }
+
+  .description__title {
+    font-size: 2rem;
+  }
+
+  .description__text {
+    font-size: 1rem;
+  }
+
+  .skills__title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .skills__icons {
+    display: grid;
+    justify-content: center;
+    gap: 32px;
+  }
+}

@@ -1,0 +1,17 @@
+#return {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  display: grid;
+  place-content: center;
+  font-size: 2.5rem;
+  border: 2px solid var(--background-color);
+  padding: 5px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+}
+
+#return:hover {
+  color: var(--secondary-color);
+  transition: all 0.5s;
+}
