@@ -97,3 +97,9 @@
     gap: 32px;
   }
 }
+
+@media (max-height: 670px) {
+  .about-me .section__title {
+    margin-top: 50px;
+  }
+}

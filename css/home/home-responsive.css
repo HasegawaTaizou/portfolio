@@ -23,9 +23,6 @@
 
 /* MOBILE */
 @media (max-width: 710px) {
-  header {
-    margin-top: 12px;
-  }
 
   .profile {
     display: grid;
@@ -39,7 +36,6 @@
   .profile__foto {
     grid-area: image;
     justify-self: center;
-    margin-top: 80px;
   }
 
   .profile div {
@@ -48,3 +44,32 @@
     text-align: center;
   }
 }
+
+@media (max-width: 710px) and (max-height: 670px){
+  header {
+    margin-top: 12px;
+  }
+
+  .profile {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "content";
+    grid-template-rows: auto auto;
+    max-width: 570px;
+    gap: 24px;
+  }
+
+  .profile__foto {
+    grid-area: image;
+    justify-self: center;
+    margin-top: 100px;
+  }
+
+  .profile div {
+    display: grid;
+    gap: 12px;
+    text-align: center;
+  }
+}
+
