@@ -23,6 +23,10 @@
 
 /* MOBILE */
 @media (max-width: 710px) {
+  header {
+    margin-top: 12px;
+  }
+
   .profile {
     display: grid;
     grid-template-areas:
@@ -35,6 +39,7 @@
   .profile__foto {
     grid-area: image;
     justify-self: center;
+    margin-top: 80px;
   }
 
   .profile div {

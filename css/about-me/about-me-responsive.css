@@ -28,6 +28,7 @@
     grid-template-columns: auto auto auto;
     justify-content: space-between;
     gap: 32px;
+    padding-right: 48px;
   }
 }
 
