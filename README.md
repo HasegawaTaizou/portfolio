@@ -1,6 +1,6 @@
 # Portfólio
 
-![Screenshot](<img src="screenshot.PNG" alt="Screenshot"/>)
+![Screenshot](screenshot.PNG)
 
 [Clique aqui](https://hasegawataizou.github.io/portfolio-junto/) para acessar o site
 
